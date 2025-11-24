@@ -106,7 +106,7 @@
     --text-static-secondary: var(--darkneutral-1000);
     --text-static-placeholder: var(--darkneutral-800);
 
-    --accent: var(--blue-700);
+    --accent: var(--blue-600);
     --accent-hover: var(--blue-800);
 
     --icon-enabled: var(--darkneutral-600);
@@ -142,7 +142,7 @@
     --text-static-secondary: var(--darkneutral-1000);
     --text-static-placeholder: var(--darkneutral-800);
 
-    --accent: var(--blue-600);
+    --accent: var(--blue-500);
     --accent-hover: var(--blue-800);
 
     --icon-enabled: var(--darkneutral-600);
