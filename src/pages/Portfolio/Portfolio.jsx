@@ -44,8 +44,7 @@ export default function Portfolio() {
                         </Card>
 
                         <Card 
-                        description="Unifying public EV chargers." 
-                        modeSupport={true} 
+                        description="Unifying public EV chargers."
                         thumbnailType="image"
                         lightSrc={assets.amperLight}
                         gradient={true}

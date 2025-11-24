@@ -18,12 +18,21 @@ footer{
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+    flex-wrap: wrap;
+    gap: var(--spacing-l);
 }
-
 .footer-body-text{
     display: flex;
     flex-direction: column;
     gap: var(--spacing-xxs);
+}
+.footer-social-profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--spacing-xxs);
+    width: fit-content;
 }
 .copyright{
     display: flex;

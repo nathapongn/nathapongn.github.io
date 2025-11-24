@@ -7,6 +7,7 @@ import Divider from '../Divider/Divider.jsx'
 
 // MUI
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 export default function Footer() {
     const currentYear = new Date().getFullYear();
@@ -22,6 +23,7 @@ export default function Footer() {
                             <h1 className="text-xl text-neutral-primary">Liking what you're seeing?</h1>
                             <p className="text-s text-neutral-secondary">Let's work together!</p>
                         </div>
+                        <div className="footer-social-profile">
                         <a 
                             href="https://www.linkedin.com/in/nathapongn/" 
                             target="_blank" 
@@ -29,6 +31,14 @@ export default function Footer() {
                         >
                             <LinkedInIcon sx={{ fontSize: 36 }} className="icon-enabled" />
                         </a>
+                        <a 
+                            href="https://github.com/nathapongn" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                        >
+                            <GitHubIcon sx={{ fontSize: 32 }} className="icon-enabled" />
+                        </a>
+                        </div>
                     </div>
                     <Divider />
                     <p className="text-s text-neutral-secondary">Designed in Figma, made with ReactJS.</p>

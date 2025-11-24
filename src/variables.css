@@ -110,7 +110,7 @@
     --accent-hover: var(--blue-800);
 
     --icon-enabled: var(--darkneutral-600);
-    --icon-enabled-hover: var(--darkneutral-500);
+    --icon-enabled-hover: var(--darkneutral-400);
     --icon-subtle: var(--darkneutral-700);
     --icon-accent: var(--accent);
     --icon-white: var(--neutral-0);
@@ -146,7 +146,7 @@
     --accent-hover: var(--blue-800);
 
     --icon-enabled: var(--darkneutral-600);
-    --icon-enabled-hover: var(--darkneutral-700);
+    --icon-enabled-hover: var(--darkneutral-800);
     --icon-subtle: var(--darkneutral-500);
     --icon-white: var(--neutral-0);
     
