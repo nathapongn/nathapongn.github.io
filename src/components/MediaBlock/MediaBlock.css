@@ -14,12 +14,12 @@
     justify-content: center;
     align-items: center;
     flex: 1;
-    min-width: 280px;
     overflow: hidden;
     border-radius: var(--radius-m);
 }
 .media-block img {
     width: 100%;
+    max-width: 800px;
 }
 .media-block.mirror{
     flex-direction: row-reverse;
@@ -30,7 +30,6 @@
     flex-direction: column;
     flex: 1;
     width: 100%;
-    min-width: 30ch;
     gap: var(--spacing-l);
     white-space: pre-line;
 }
@@ -39,5 +38,9 @@
 @media (max-width: 768px) {
     .media-block{
         padding: var(--spacing-xl) 0;
+        flex-direction: column;
+    }
+    .media-block.mirror{
+        flex-direction: column;
     }
 }

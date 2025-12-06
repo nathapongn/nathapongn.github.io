@@ -1,4 +1,3 @@
-import Wrapper from "../components/Wrapper/Wrapper";
 import MediaBlock from "../components/MediaBlock/MediaBlock";
 
 import assets from "../../src/assets/site/index"
@@ -7,8 +6,7 @@ export default function About() {
     return(
         <>
             <main>
-                <Wrapper>
-                    <div className="About">
+                <div className="About">
                         <MediaBlock 
                         title="A little about me"
                         description={`I'm Nat, a UX Designer based in Bangkok with a background in architecture with 4+ years of experience. I currently design at SCB (Siam Commercial Bank), one of Thailand's largest financial institutions.
@@ -26,8 +24,7 @@ export default function About() {
                         lightSrc={assets.about["2"]}
                         mirror={true}
                         />
-                    </div>
-                </Wrapper>
+                </div>
             </main> 
         </>
     )

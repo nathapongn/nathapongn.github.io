@@ -1,8 +1,8 @@
 .column-layout{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    gap: var(--spacing-xxl);
-    padding: var(--spacing-xl) 0;
+    gap: var(--spacing-l);
+    padding: var(--spacing-xxl) 0;
     width: 100%;
 }
 
