@@ -6,6 +6,10 @@
     width: 100%;
 }
 
+.column-label{
+    padding: var(--spacing-xl) 0;
+}
+
 @media (max-width: 768px) {
     .column-layout {
         grid-template-columns: 1fr;

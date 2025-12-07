@@ -2,19 +2,20 @@ import './Copy.css';
 import Icon from '../Icon/Icon.jsx'
 
 export default function Copy(
-    {title="Title", 
+    {title="Title",
     description, 
     titleSize="text-xl", 
     descriptionSize="text-m", 
+    className,
     background=false, 
     fullWidth=false,
     cols=12,
-    media=false, 
-    mediaSrc, 
+    media=false,
+    mediaSrc,
     alt,
     icon=null}) {
     return(
-        <div className={`copy ${background ? "background" : ""} ${fullWidth ? "full-width" : ""} col-span-${cols}`}>
+        <div className={`copy ${className} ${background ? "background" : ""} ${fullWidth ? "full-width" : ""} col-span-${cols}`}>
             {icon && 
                 <Icon className="copy-icon icon-subtle">{icon}</Icon>
             }

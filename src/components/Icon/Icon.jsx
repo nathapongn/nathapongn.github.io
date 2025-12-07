@@ -1,9 +1,8 @@
 import './Icon.css'
 
 export default function Icon({children, className}) {
+
     return(
-        <div className={`icon ${className}`}>
-            {children}
-        </div>
+       <div className={`icon ${className}`}>{children}</div>
     )
 }

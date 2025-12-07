@@ -1,18 +1,29 @@
+// Get images from this folder, any with .webp
 const images = import.meta.glob('./*.webp', { eager: true });
 
+// Get videos from this folder, any with .mp4.
+const videos = import.meta.glob('./vid/*.mp4', { eager: true });
+
+// Storage
 const assets = {};
 
-Object.entries(images).forEach(([path, mod]) => {
-  // e.g. "./cover-mobile_dark.webp" → "cover-mobile_dark"
-  const file = path.replace('./', '').replace('.webp', '');
+function processFiles(files) {
+  Object.entries(files).forEach(([path, mod]) => {
+    // Remove folder names and extensions
+    const clean = path.replace('./', '').replace('vid/', '').replace(/\.(webp|mp4)$/, '');
 
-  // Split at the LAST underscore to avoid issues with filenames containing "_"
-  const lastUnderscore = file.lastIndexOf('_');
-  const name = file.substring(0, lastUnderscore);  // cover-mobile
-  const theme = file.substring(lastUnderscore + 1); // dark
+    // Split filename at last underscore
+    const lastUnderscore = clean.lastIndexOf('_');
+    const name = clean.substring(0, lastUnderscore);
+    const theme = clean.substring(lastUnderscore + 1);
 
-  if (!assets[name]) assets[name] = {};
-  assets[name][theme] = mod.default;
-});
+    if (!assets[name]) assets[name] = {};
+    assets[name][theme] = mod.default;
+  });
+}
+
+// Process both images and videos
+processFiles(images);
+processFiles(videos);
 
 export default assets;

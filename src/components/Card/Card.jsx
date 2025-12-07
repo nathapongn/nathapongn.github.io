@@ -32,7 +32,7 @@ export default function Card({ children = "Title", description = "Description", 
                         <div className="card-title">
                             <h2 className="text-xl text-neutral-primary">{children}</h2>
                             {modeSupport && (
-                                <Icon>
+                                <Icon tooltip="Light & Dark Mode">
                                     <LampDesk className="icon-subtle" size={24} />
                                 </Icon>
                             )}

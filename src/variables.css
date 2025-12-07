@@ -93,18 +93,16 @@
     --surface-1: var(--neutral-100);
     --surface-2: var(--neutral-200);
     --surface-outline-1: var(--neutral-300);
-    --surface-static-0: var(--darkneutral-0);
-    --surface-static-1: var(--darkneutral-100);
-    --surface-static-outline-0: var(--darkneutral-350);
+    --surface-inverted-0: var(--darkneutral-0);
+    --surface-inverted-1: var(--darkneutral-400);
 
     --surface-translucent: rgba(255, 255, 255, 0.8);
 
     --text-neutral-primary: var(--darkneutral-0);
     --text-neutral-secondary: var(--darkneutral-400);
     --text-neutral-placeholder: var(--darkneutral-500);
-    --text-static-primary: var(--darkneutral-1100);
-    --text-static-secondary: var(--darkneutral-1000);
-    --text-static-placeholder: var(--darkneutral-800);
+    --text-inverted-primary: var(--darkneutral-1100);
+    --text-inverted-secondary: var(--darkneutral-900);
 
     --accent: var(--blue-600);
     --accent-hover: var(--blue-800);
@@ -129,18 +127,16 @@
     --surface-1: var(--darkneutral-100);
     --surface-2: var(--darkneutral-200);
     --surface-outline-1: var(--darkneutral-300);
-    --surface-static-0: var(--darkneutral-0);
-    --surface-static-1: var(--darkneutral-100);
-    --surface-static-outline-0: var(--darkneutral-350);
+    --surface-inverted-0: var(--darkneutral-1100);
+    --surface-inverted-1: var(--darkneutral-900);
 
     --surface-translucent: rgba(22, 26, 29, 0.8);
 
     --text-neutral-primary: var(--darkneutral-1100);
     --text-neutral-secondary: var(--darkneutral-900);
     --text-neutral-placeholder: var(--darkneutral-700);
-    --text-static-primary: var(--darkneutral-1100);
-    --text-static-secondary: var(--darkneutral-1000);
-    --text-static-placeholder: var(--darkneutral-800);
+    --text-inverted-primary: var(--darkneutral-1100);
+    --text-inverted-secondary: var(--darkneutral-900);
 
     --accent: var(--blue-500);
     --accent-hover: var(--blue-800);
@@ -179,6 +175,8 @@
 .text-neutral-primary   { color: var(--text-neutral-primary); }
 .text-neutral-secondary { color: var(--text-neutral-secondary); }
 .text-neutral-placeholder { color: var(--text-neutral-placeholder); }
+.text-inverted-primary   { color: var(--text-inverted-primary); }
+.text-inverted-secondary { color: var(--text-inverted-secondary); }
 .accent { color: var(--accent); }
 
 .strong { font-weight: 600; }

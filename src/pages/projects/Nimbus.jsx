@@ -4,7 +4,6 @@ import ColumnLayout from '../../components/Section/ColumnLayout.jsx';
 import Copy from '../../components/Section/Copy.jsx';
 import MediaBlock from '../../components/MediaBlock/MediaBlock.jsx';
 import Divider from '../../components/Divider/Divider.jsx'
-import Wrapper from '../../components/Wrapper/Wrapper.jsx'
 
 // Assets
 import assets from '../../assets/projects/nimbus/index.js';
@@ -57,14 +56,11 @@ export default function Nimbus() {
                     lightSrc={assets.problem.light}
                     darkSrc={assets.problem.dark}
                 />
-                <Wrapper>
-                    <Copy 
-                        title="User Research"
-                        description="To gather insights, I conducted a brief survey with 16 participants, most of whom currently use a tracking app or platform, while others have used such tools in the past."
-                        fullWidth
-                    ></Copy>
-                </Wrapper>
-                <ColumnLayout>
+                <ColumnLayout
+                    showLabel={true}
+                    title="User Research"
+                    description="To gather insights, I conducted a brief survey with 16 participants, most of whom currently use a tracking app or platform, while others have used such tools in the past."
+                >
                     <Copy
                         title="72%"
                         description='of respondents find the manual tracking process to be their most disliked aspect. Respondents who stopped tracking also cited this aspect as their primary reason.'
@@ -96,10 +92,27 @@ export default function Nimbus() {
                  <MediaBlock
                     caption="Overview"
                     title="Dashboard"
+                    mediaType="image"
                     description="Provides an overview of your assets, statistics, recent transactions, active budgets, and account balances."
                     lightSrc={assets.dashboard.light}
                     darkSrc={assets.dashboard.dark}
                  />
+                <MediaBlock
+                    orientation="vertical"
+                    mediaType="video"
+                    lightSrc={assets.overview.light}
+                    darkSrc={assets.overview.dark}
+                    title="Accuracy"
+                    description="A convenient date range picker offers users with varying payroll dates a clear and accurate view of their true monthly cash flow and budget."
+                />
+                <MediaBlock
+                    mirror={true}
+                    lightSrc={assets.txn.light}
+                    darkSrc={assets.txn.dark}
+                    caption="Insights"
+                    title="Transaction"
+                    description="Detailed record of all transactions with a stacked bar chart displaying transaction categories for each month, offering a clear visualization of users' spending patterns."
+                />
             </main>
         </>
     )

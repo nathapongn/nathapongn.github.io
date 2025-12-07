@@ -1,0 +1,10 @@
+.tooltip{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: var(--spacing-xxs);
+    background-color: var(--surface-inverted-0);
+    border-radius: var(--radius-s);
+}
