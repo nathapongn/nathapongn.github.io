@@ -5,7 +5,7 @@
     align-items: center;
     gap: var(--spacing-xxxl);
     flex-wrap: wrap;
-    padding: var(--spacing-xl) 0;
+    padding: var(--spacing-xxl) 0;
 }
 .media-wrapper {
     display: flex;

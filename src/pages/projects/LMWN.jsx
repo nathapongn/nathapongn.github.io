@@ -24,6 +24,7 @@ export default function Nimbus() {
                         description="During the summer of 2022, I was offered the opportunity to intern as a UX/UI Designer at one of Thailand's most popular food delivery platforms, LINE MAN Wongnai."
                         descriptionSize="text-m"
                         cols="6"
+                        textAlign="left"
                     />
                     <Copy
                         title="Duration"
@@ -31,6 +32,7 @@ export default function Nimbus() {
                         description="Jun 22 - Aug 22"
                         descriptionSize="text-m"
                         cols="3"
+                        textAlign="left"
                     />
                 </ColumnLayout>
                 <Divider />

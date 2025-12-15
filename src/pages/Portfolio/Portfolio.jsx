@@ -20,10 +20,9 @@ export default function Portfolio() {
                 <div className="portfolio">
                     <div className="hero-banner">
                         <div className="hero-banner-label">
-                            <h1 className="hero-banner-title text-xxxl text-neutral-primary">Hello</h1>
-                            <p className="hero-banner-description text-m text-neutral-secondary">I'm Nat, a <span className="strong accent">UX Designer</span> based in Bangkok. 
-                            <br />
-                            Currently designing at SCB - Siam Commercial Bank, here to make banking easier, one pixel at a time.
+                            <h1 className="hero-banner-title text-xxxl text-neutral-primary">Hello, I'm Nat</h1>
+                            <p className="hero-banner-description text-m text-neutral-secondary">
+                            A designer with 4+ years of experience designing complex digital products—rooted in finance and internal tools, applicable anywhere.
                             <br /><br />
                             I believe in designing for the beautifully imperfect ways humans interact with technology, rather than some ideal.</p>
                         </div>
