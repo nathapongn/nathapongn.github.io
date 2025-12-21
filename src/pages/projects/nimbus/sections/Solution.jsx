@@ -9,6 +9,7 @@ import ShowcaseBlock from "../../../../components/patterns/ShowcaseBlock.jsx";
 
 // Assets
 import assets from '../../../../assets/projects/nimbus/index.js';
+import copy from '../../../../assets/projects/nimbus/copy.js';
 
 export default function Solution() {
     return (
@@ -40,46 +41,46 @@ export default function Solution() {
                 />
             </ColumnLayout>
             <MediaBlock
-                caption="Overview"
-                title="Dashboard"
+                caption={copy.dashboard.caption}
+                title={copy.dashboard.title}
+                description={copy.dashboard.description}
                 mediaType="image"
-                description="Provides an overview of your assets, statistics, recent transactions, active budgets, and account balances."
                 lightSrc={assets.dashboard.light.image}
                 darkSrc={assets.dashboard.dark.image}
             />
             <ShowcaseBlock
                 lightSrc={assets.overview.light.video}
                 darkSrc={assets.overview.dark.video}
-                title="Accuracy"
-                description="A convenient date range picker offers users with varying payroll dates a clear and accurate view of their true monthly cash flow and budget."
+                title={copy.dashboard_preview.title}
+                description={copy.dashboard_preview.description}
             />
             <MediaBlock
                 mirror={true}
                 lightSrc={assets.txn.light.image}
                 darkSrc={assets.txn.dark.image}
                 caption="Insights"
-                title="Transaction"
-                description="Detailed record of all transactions with a stacked bar chart displaying transaction categories for each month, offering a clear visualization of users' spending patterns."
+                title={copy.txn.title}
+                description={copy.txn.description}
             />
             <ShowcaseBlock
                 lightSrc={assets.txn.light.video}
                 darkSrc={assets.txn.dark.video}
-                title="Transaction Overview"
-                description="Users can view records of all their transactions, spending pattern by categories, and edit records."
+                title={copy.txn_preview.title}
+                description={copy.txn_preview.description}
             />
             <VisualBlock
                 lightSrc={assets["flow-txn"].light.image}
                 darkSrc={assets["flow-txn"].dark.image}
             />
             <SectionHeader 
-                title="Automation" 
-                description="Besides manual transaction entry, users can link accounts from supported banks or upload payment slips and bank statements to automatically log transactions."
+                title={copy.automation.title}
+                description={copy.automation.description}
             />
             <ShowcaseBlock
                 lightSrc={assets.upload.light.video}
                 darkSrc={assets.upload.dark.video}
-                title="Transaction Upload"
-                description="Users can upload payment slips to record expenses or historical statements to automatically log all transactions. An AI model analyzes the upload via OCR, inputs transaction information, and assigns categories for recognized recipients or senders. Users can then fine-tune these categories or add notes."
+                title={copy.txn_upload.title}
+                description={copy.txn_upload.description}
             />
             <VisualBlock
                 lightSrc={assets["flow-upload"].light.image}
@@ -89,47 +90,47 @@ export default function Solution() {
                 mirror={false}
                 lightSrc={assets.txn.light.image}
                 darkSrc={assets.txn.dark.image}
-                caption="Keep Control"
-                title="Budget"
-                description="Take control of spending by adding a custom budget and setting a limit for different categories. Stay informed with daily recommended spending amounts and receive notifications when approaching budget limits."
+                caption={copy.budget.caption}
+                title={copy.budget.title}
+                description={copy.budget.description}
             />
             <ShowcaseBlock
                 lightSrc={assets.budget.light.video}
                 darkSrc={assets.budget.dark.video}
-                title="Create Budget"
-                description="Users can create a budget by selecting their preferred categories and setting spending limits, with a recommended daily amount to stay within budget."
+                title={copy.budget_preview.title}
+                description={copy.budget_preview.description}
             />
             <MediaBlock
                 mirror={false}
                 lightSrc={assets.inv.light.image}
                 darkSrc={assets.inv.dark.image}
-                caption="Comprehensive"
-                title="Investment"
-                description="Track investments including domestic mutual funds, stocks across major international markets, and commodities. Compare performance across various asset types with ease."
+                caption={copy.inv.caption}
+                title={copy.inv.title}
+                description={copy.inv.description}
             />
             <ShowcaseBlock
                 lightSrc={assets["inv-stocks"].light.video}
                 darkSrc={assets["inv-stocks"].dark.video}
-                title="Stocks"
-                description="Track stocks across major exchanges."
+                title={copy.inv.title}
+                description={copy.inv.description}
             />
             <ShowcaseBlock
                 lightSrc={assets["inv-mf"].light.video}
                 darkSrc={assets["inv-mf"].dark.video}
-                title="Mutual Funds"
-                description="Track domestic mutual funds with daily NAV updates."
+                title={copy.inv_preview[0].title}
+                description={copy.inv_preview[0].description}
             />
             <ShowcaseBlock
                 lightSrc={assets["inv-commo"].light.video}
                 darkSrc={assets["inv-commo"].dark.video}
-                title="Commodities"
-                description="Track major commodities in customizable units."
+                title={copy.inv_preview[1].title}
+                description={copy.inv_preview[1].description}
             />
             <VisualBlock
                 lightSrc={assets["flow-inv"].light.image}
                 darkSrc={assets["flow-inv"].dark.image}
-                title="Commodities"
-                description="Track major commodities in customizable units."
+                title={copy.inv_preview[2].title}
+                description={copy.inv_preview[2].description}
             />
             <SectionHeader title="Style Guide"/>
             <VisualBlock
