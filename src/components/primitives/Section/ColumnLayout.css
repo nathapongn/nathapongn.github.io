@@ -7,7 +7,7 @@
 }
 
 .column-label{
-    padding: var(--spacing-xl) 0;
+    padding: var(--spacing-xxxl) 0 var(--spacing-l) 0;
 }
 
 @media (max-width: 768px) {

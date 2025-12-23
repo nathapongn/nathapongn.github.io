@@ -3,10 +3,12 @@ import Icon from '../Icon/Icon.jsx'
 
 export default function Copy(
     {
+    children,
     title="Title",
-    description, 
+    description,
+    orientation="vertical",
     titleSize="text-xl", 
-    descriptionSize="text-m", 
+    descriptionSize="text-m",
     className,
     background=false, 
     fullWidth=false,
@@ -20,6 +22,7 @@ export default function Copy(
     return(
         <div className={`
             copy
+            ${orientation}
             ${className}
             ${background ? "background" : ""} 
             ${fullWidth ? "full-width" : ""}
@@ -34,6 +37,7 @@ export default function Copy(
             }
             <h1 className={`copy-title text-neutral-primary ${titleSize}`}>{title}</h1>
             <p className={`copy-description text-neutral-secondary ${descriptionSize}`}>{description}</p>
+            {children}
         </div>
     )
 }

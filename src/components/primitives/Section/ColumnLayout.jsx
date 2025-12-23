@@ -7,7 +7,7 @@ export default function ColumnLayout({children, showLabel=false, title, descript
     return(
         <Wrapper flexDirection="column">
             {showLabel &&
-            <Copy className="column-label" title={title} description={description} textAlign={textAlign}/>
+            <Copy className="column-label" title={title} description={description} textAlign={textAlign} fullWidth/>
             }
             <div className={`column-layout`}>
             {children}

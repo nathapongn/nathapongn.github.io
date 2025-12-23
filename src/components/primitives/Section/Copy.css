@@ -6,7 +6,15 @@
     flex: 1;
     white-space: pre-line;
 }
-.copy h1, .copy p{
+.horizontal{
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+.horizontal h1, .horizontal p{
+    text-align: left;
+}
+.vertical h1, .copy p{
     width: 100%;
 }
 .copy-icon{
@@ -20,8 +28,8 @@
 .full-width{
     width: 100%;
     align-items: center;
-    max-width: 75ch;
 }
+
 .copy-align-center{
     text-align: center
 }
@@ -31,9 +39,13 @@
 .copy-align-right{
     text-align: right
 }
-
 .section-header{
-    padding: var(--spacing-xxxl) 0 var(--spacing-xxxl) 0;
+    padding: var(--spacing-xxxl) var(--content-padding) var(--spacing-xxxl) var(--content-padding);
+    max-width: 1280px;
+}
+.copy img, .copy video{
+    width: 80px;
+    margin-bottom: var(--spacing-m);
 }
 
 .col-span-1 { grid-column: span 1 / span 1; }

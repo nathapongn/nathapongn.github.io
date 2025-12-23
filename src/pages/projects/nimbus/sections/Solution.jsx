@@ -14,7 +14,7 @@ import copy from '../../../../assets/projects/nimbus/copy.js';
 export default function Solution() {
     return (
         <>
-            <SectionHeader title="Design Solution" />
+            <SectionHeader title={copy.design_solution} />
             <MediaBlock
                 orientation='vertical'
                 cols="12"
