@@ -14,7 +14,6 @@
     align-items: center;
     flex: 1;
     gap: var(--spacing-m);
-    overflow: hidden;
 }
 .media-block img {
     width: 100%;

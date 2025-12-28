@@ -24,6 +24,50 @@ export default function Solution() {
                 title={copy.home.title}
                 description={copy.home.description}
             />
+            <ColumnLayout>
+                <MediaBlock
+                    orientation="vertical"
+                    lightSrc={assets["showcase-2"].image}
+                    darkSrc={assets["showcase-2"].image}
+                    description={copy.home.states[1]}
+                    cols={6}
+                    withWrapper={false}
+                />
+                <MediaBlock
+                    orientation="vertical"
+                    lightSrc={assets["showcase-3"].image}
+                    darkSrc={assets["showcase-3"].image}
+                    description={copy.home.states[1]}
+                    cols={6}
+                    withWrapper={false}
+                />
+            </ColumnLayout>
+            <MediaBlock 
+                mediaType="video"
+                mirror
+                lightSrc=""
+                darkSrc=""
+                caption={copy.map.caption}
+                title={copy.map.title}
+                description={copy.map.description}
+            />
+            <MediaBlock 
+                mediaType="video"
+                lightSrc=""
+                darkSrc=""
+                caption={copy.station.caption}
+                title={copy.station.title}
+                description={copy.station.description}
+            />
+            <MediaBlock 
+                mediaType="video"
+                mirror
+                lightSrc=""
+                darkSrc=""
+                caption={copy.addVehicle.caption}
+                title={copy.addVehicle.title}
+                description={copy.addVehicle.description}
+            />
         </>
     );
 }

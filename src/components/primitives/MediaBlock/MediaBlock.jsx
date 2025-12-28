@@ -6,7 +6,7 @@ import Wrapper from "../Wrapper/Wrapper.jsx";
 
 export default function MediaBlock({
   showLabel = true,
-  title = "Title",
+  title = "",
   titleSize = "text-xl",
   description = "Description",
   descriptionSize = "text-m",
@@ -36,7 +36,7 @@ export default function MediaBlock({
                 {showLabel ?
                 <div className="media-label">
                     {caption != '' && <p className="media-text-s strong accent">{caption}</p>}
-                    <h1 className={`${orientation === "vertical" ? "text-l" : titleSize} text-neutral-primary`}>{title}</h1>
+                    {title != '' && <h1 className={`${orientation === "vertical" ? "text-l" : titleSize} text-neutral-primary`}>{title}</h1>}
                     <p className={`${descriptionSize} text-neutral-secondary`}>{description}</p>
                 </div> : null
                 }

@@ -134,7 +134,7 @@ const copy = {
             "All supported chargers across multiple networks are unified into a single, easy-to-navigate map. Real-time availability is color-coded for quick scanning, and filters help narrow stations by plug type, charging speed, availability, and more. Station pages include detailed information and community-generated updates, making discovery faster and more reliable."
     },
 
-    stationDetails: {
+    station: {
         caption: "Station Details",
         title: "Transparent and Reliable",
         description: [
@@ -150,15 +150,15 @@ const copy = {
             "Users can add and customize vehicle profiles by selecting the exact make and model, ensuring compatibility with available chargers. Additional supported plug types can be added, allowing Amper to tailor recommendations and check-in flows to real-world setups."
     },
 
-    sampleJourneys: {
+    chargeJourney: {
         title: "Sample Check-in Journeys",
         description:
             "Designed to support each provider's pricing model and hardware configuration while improving efficiency through clearer information, fewer screens, and a visually consistent interface.",
         samples: [
             {
-                label: "Sample 1",
+                caption: "Sample 1",
                 title: "EleXA",
-                meta: {
+                description: {
                     plugIdentification: "Dedicated QR Code",
                     pricingModel: "Per kWh",
                     similarProviders: [
@@ -169,12 +169,12 @@ const copy = {
                     ]
                 },
                 description:
-                    "Dedicated QR code chargers offer a simple scan-and-charge flow. Amper improves the EleXA journey by removing a misleading full-page battery percencaptione step and replacing it with a compact, clearly labeled option within the confirmation page. This creates space for station and plug details, reducing the risk of users checking into the wrong plug."
+                    "Dedicated QR code chargers offer a simple scan-and-charge flow. Amper improves the EleXA journey by removing a misleading full-page battery percencaptione step and replacing it with a compact, clearly captioned option within the confirmation page. This creates space for station and plug details, reducing the risk of users checking into the wrong plug."
             },
             {
-                label: "Sample 2",
+                caption: "Sample 2",
                 title: "PEA Volta",
-                meta: {
+                description: {
                     plugIdentification: "Shared QR Code",
                     pricingModel: "Per kWh",
                     similarProviders: [
@@ -187,9 +187,9 @@ const copy = {
                     "Shared QR code chargers still require manual plug selection. Amper improves the experience by allowing flexible payments via connected cards and e-wallets, eliminating the need to top up provider-specific wallets and reducing fragmented balances across apps."
             },
             {
-                label: "Sample 3",
+                caption: "Sample 3",
                 title: "Shell Recharge",
-                meta: {
+                description: {
                     plugIdentification: "Shared QR Code",
                     pricingModel: "Per kWh with time slot",
                     similarProviders: [
@@ -200,9 +200,9 @@ const copy = {
                     "The original flow required users to select charging duration before choosing a start time, which didn't match real-world planning behavior. Amper redesigns the flow so users select start and end times first, with duration calculated automatically—making booking more intuitive and reducing friction."
             },
             {
-                label: "Sample 4",
+                caption: "Sample 4",
                 title: "EA Anywhere (DC)",
-                meta: {
+                description: {
                     plugIdentification: "Shared QR Code",
                     pricingModel: "Prepaid fixed amount"
                 },
