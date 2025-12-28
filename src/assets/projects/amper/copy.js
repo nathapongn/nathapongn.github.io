@@ -209,6 +209,9 @@ const copy = {
                 description:
                     "Amper consolidates a previously complex check-in flow into a streamlined experience. Vehicle selection, payment method, and amount selection are merged into a single confirmation page, followed by a unified instruction screen. This reduces the flow from 12 clicks to 5 and from 7 screens to 3 without removing required steps."
             }
+        ],
+        showcase: [
+            "AlterVim", "EA Anywhere (AC)"
         ]
     },
 

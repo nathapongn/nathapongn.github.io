@@ -1,12 +1,16 @@
-import Wrapper from '../../../components/primitives/Wrapper/Wrapper.jsx'
+import Hero from './sections/Hero.jsx'
+import Context from './sections/Context.jsx'
+import Solution from './sections/Solution.jsx'
+import Reflection from './sections/Reflection.jsx'
 
 export default function Nimbus() {
     return (
         <>
             <main>
-                <Wrapper>
-                    
-                </Wrapper>
+                <Hero />
+                <Context />
+                <Solution />
+                <Reflection />
             </main>
         </>
     )

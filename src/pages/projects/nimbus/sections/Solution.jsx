@@ -21,6 +21,7 @@ export default function Solution() {
                 showLabel={false}
                 lightSrc={assets["mockup-1"].light.image}
                 darkSrc={assets["mockup-1"].dark.image}
+                padding="fit"
             />
             <ColumnLayout>
                 <MediaBlock
@@ -30,6 +31,7 @@ export default function Solution() {
                     showLabel={false}
                     lightSrc={assets["mockup-2"].light.image}
                     darkSrc={assets["mockup-2"].dark.image}
+                    padding="fit"
                 />
                 <MediaBlock
                     withWrapper={false}
@@ -38,6 +40,7 @@ export default function Solution() {
                     showLabel={false}
                     lightSrc={assets["mockup-3"].light.image}
                     darkSrc={assets["mockup-3"].dark.image}
+                    padding="fit"
                 />
             </ColumnLayout>
             <MediaBlock

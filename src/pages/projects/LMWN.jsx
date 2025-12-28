@@ -43,6 +43,7 @@ export default function Nimbus() {
                     
                     I was given tasks to help merchants improve their ad postings' effectiveness, design a coupon creation journey to allow merchants to easily offer discounts on menus, and create a new merchant ranking menu to help them keep track of their ranks and available rewards."
                     mediaCaption="Intern Goodies"
+                    padding='roomy'
                 ></MediaBlock>
                 <MediaBlock
                     lightSrc={assets["lm-2"]}
@@ -52,6 +53,7 @@ export default function Nimbus() {
                     
                     I learned the importance of design iterations and thinking on my feet. It also made me realize, early on in my career, how much more there is to experience and learn from others."
                     mediaCaption="LMWN Design Team"
+                    padding='roomy'
                 ></MediaBlock>
                 
                 <ColumnLayout>

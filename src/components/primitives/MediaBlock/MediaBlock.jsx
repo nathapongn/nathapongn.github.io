@@ -19,6 +19,7 @@ export default function MediaBlock({
   caption,
   mediaCaption,
   cols=12,
+  padding="cozy",
   alt
 }) {
 
@@ -26,7 +27,7 @@ export default function MediaBlock({
 
     const content = (
             <div className={`media-block ${mirror ? "mirror" : ""} ${orientation} col-span-${cols}`}>
-                <div className={`media-wrapper ${mediaType === "video" ? "video" : "image"}`}>
+                <div className={`media-wrapper ${mediaType === "video" ? "video" : "image"} ${padding}`}>
                     {mediaType === "video" ? 
                     <video className="media-video" src={darkMode ? (darkSrc || lightSrc): lightSrc} autoPlay loop muted playsInline /> 
                     : 

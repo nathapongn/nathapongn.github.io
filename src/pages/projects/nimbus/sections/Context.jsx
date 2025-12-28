@@ -5,6 +5,7 @@ import Copy from "../../../../components/primitives/Section/Copy.jsx";
 // Assets
 import assets from '../../../../assets/projects/nimbus/index.js';
 import copy from '../../../../assets/projects/nimbus/copy.js';
+import VisualBlock from "../../../../components/patterns/VisualBlock.jsx";
 
 export default function Context() {
     return (
@@ -49,8 +50,8 @@ export default function Context() {
                     lightSrc={assets.obj.light.image}
                     darkSrc={assets.obj.dark.image}
                  />
-                <MediaBlock showLabel={false} lightSrc={assets.wireframe.light.image} darkSrc={assets.wireframe.dark.image} />
-                <MediaBlock showLabel={false} lightSrc={assets.sitemap.light.image} darkSrc={assets.sitemap.dark.image} />
+                <VisualBlock showLabel={false} lightSrc={assets.wireframe.light.image} darkSrc={assets.wireframe.dark.image} />
+                <VisualBlock showLabel={false} lightSrc={assets.sitemap.light.image} darkSrc={assets.sitemap.dark.image} />
         </>
     )
 }
