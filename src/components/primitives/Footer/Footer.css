@@ -49,3 +49,9 @@ footer{
     gap: var(--spacing-xxs);
     align-items: center
 }
+
+@media (max-width: 768px) {
+    footer{
+        margin-top: 1vh;
+    }
+}

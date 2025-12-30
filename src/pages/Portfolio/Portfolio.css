@@ -27,6 +27,9 @@
 }
 
 @media (max-width: 768px) {
+    .hero-banner-label{
+        padding: var(--spacing-xxl) 0;
+    }
     .projects{
         grid-template-columns: 1fr;
     }
