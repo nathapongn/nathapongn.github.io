@@ -158,28 +158,28 @@
 /* Text */
 .text-xxs {
   font-size: 0.833rem;
-  font-weight: 350;
+  font-weight: 400;
   line-height: 1.4;
 }
 
 /* ~10pt */
 .text-xs {
   font-size: 1rem;
-  font-weight: 350;
+  font-weight: 400;
   line-height: 1.4;
 }
 
 /* ~12pt */
 .text-s {
   font-size: 1.125rem;
-  font-weight: 350;
+  font-weight: 400;
   line-height: 1.4;
 }
 
 /* ~14pt */
 .text-m {
   font-size: 1.25rem;
-  font-weight: 350;
+  font-weight: 400;
   line-height: 1.65;
 }
 
