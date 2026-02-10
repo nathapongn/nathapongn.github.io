@@ -30,7 +30,7 @@ function ThemeBody({children}) {
 
 function App() {
   return (
-    <>
+    <div className="app">
       <BrowserRouter basename="/">
         <ScrollToTop />
           <ThemeContextProvider>
@@ -48,7 +48,7 @@ function App() {
             </ThemeBody>
           </ThemeContextProvider>
       </BrowserRouter>
-    </>
+    </div>
   )
 }
 

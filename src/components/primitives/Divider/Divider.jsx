@@ -1,4 +1,4 @@
-export default function Divider({ orientation = 'horizontal', thickness = '1px', color = 'var(--divider)', margin=false}) {
+export default function Divider({ orientation = 'horizontal', thickness = '0.5px', color = 'var(--divider)', margin=false}) {
     const style = {
         border: 'none',
         backgroundColor: color

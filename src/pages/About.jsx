@@ -1,5 +1,7 @@
-// Patterns
+// Components
 import MediaBlock from "../components/primitives/MediaBlock/MediaBlock.jsx";
+import Copy from "../components/primitives/Section/Copy.jsx";
+import ColumnLayout from "../components/primitives/Section/ColumnLayout.jsx";
 
 // Assets
 import assets from "../../src/assets/site/index";

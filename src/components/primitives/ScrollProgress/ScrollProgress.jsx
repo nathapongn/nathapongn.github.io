@@ -17,7 +17,7 @@ export default function ScrollProgress () {
 
             // Calculate available height
             const scrollableHeight = documentHeight - windowHeight;
-            // Calculate progress (width)
+            // Calculate progress in percentage and define width as progress
             const progress = (currentScroll / scrollableHeight) * 100
 
             setScrollProgress(progress);
