@@ -1,4 +1,4 @@
-import{j as e,I as N,W as p,r as v,T as b,D as x}from"./index-ByuQowIg.js";import"./ColumnLayout-CLBL4gv9.js";import{L as y}from"./lamp-desk-D4nyzeOb.js";function $({children:c,title:r="Title",description:s,orientation:t="vertical",titleSize:a="text-xl",descriptionSize:l="text-m",className:i,background:n=!1,fullWidth:o=!1,cols:m=12,media:u=!1,mediaSrc:j,textAlign:h="center",alt:f,icon:d=null}){return e.jsxs("div",{className:`
+import{j as e,I as N,W as p,r as v,T as b,D as x}from"./index-RQhbcZkU.js";import"./ColumnLayout-B4VREhTo.js";import{L as y}from"./lamp-desk-DNXnnlgo.js";function $({children:c,title:r="Title",description:s,orientation:t="vertical",titleSize:a="text-xl",descriptionSize:l="text-m",className:i,background:n=!1,fullWidth:o=!1,cols:m=12,media:u=!1,mediaSrc:j,textAlign:h="center",alt:f,icon:d=null}){return e.jsxs("div",{className:`
             copy
             ${t}
             ${i}

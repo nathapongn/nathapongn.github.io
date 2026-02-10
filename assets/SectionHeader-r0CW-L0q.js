@@ -1,0 +1,1 @@
+import{j as o}from"./index-RQhbcZkU.js";import{M as t}from"./ColumnLayout-B4VREhTo.js";import{b as a}from"./Cover-DAMrFl0Y.js";function l({mediaType:e="image",...r}){return o.jsx(t,{mediaType:e,orientation:"vertical",showLabel:!1,...r})}function m(e){return o.jsx(a,{fullWidth:!0,className:"section-header",...e})}export{m as S,l as V};
