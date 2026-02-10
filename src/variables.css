@@ -116,7 +116,7 @@
   --divider: var(--darkneutral-alpha-200);
 
   --transition-1: 150ms cubic-bezier(0.215, 0.61, 0.355, 1);
-  --transition-2: 300ms cubic-bezier(0.33, 1, 0.68, 1);
+  --transition-2: 600ms cubic-bezier(0.165, 0.84, 0.44, 1);
 
   --elavation-1: box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }

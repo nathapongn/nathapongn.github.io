@@ -11,11 +11,14 @@
     transition: min-height var(--transition-2), opacity var(--transition-2);
     position: relative;
     isolation: isolate;
+    transition: var(--transition-2);
 }
 
 .card:hover {
     cursor: pointer;
     box-shadow: 0px 18px 36px -18px rgba(0, 0, 0, 0.1), 0px 30px 45px -30px rgba(50, 50, 93, 0.15);
+    scale: 1.02;
+    transition: var(--transition-2);
 }
 
 .card:hover .read-more-icon {
@@ -47,7 +50,7 @@
     justify-content: center;
     position: relative;
     overflow: hidden;
-    transition: flex 0.3s ease, transform 0.3s ease;
+    transition: flex var(--transition-2);
     /* smooth flex and scale */
 }
 

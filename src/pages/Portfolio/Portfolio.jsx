@@ -26,6 +26,7 @@ export default function Portfolio() {
                             <br /><br />
                             I believe in designing for the beautifully imperfect ways humans interact with technology, rather than some ideal.</p>
                         </div>
+                        <div className="hero-gradient"></div>
                     </div>
                     <div className="projects">
                         <Card 
