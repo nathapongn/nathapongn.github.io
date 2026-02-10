@@ -1,0 +1,1 @@
+import{j as i}from"./index-ByuQowIg.js";import{M as r}from"./ColumnLayout-CLBL4gv9.js";function s({mediaType:o,...e}){return i.jsx(r,{mediaType:o||"video",orientation:"vertical",...e})}export{s as S};
