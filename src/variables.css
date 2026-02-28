@@ -211,9 +211,6 @@
   line-height: 1.1;
 }
 
-/* ~48pt */
-
-
 .link-plain {
   text-decoration: none;
   color: var(--text-neutral-primary);
@@ -236,6 +233,11 @@
 
 .list-plain {
   list-style: none;
+}
+
+/* Special Font */
+.style-display{
+  font-family: "Mogra"
 }
 
 /* Text Colors */

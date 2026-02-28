@@ -20,7 +20,7 @@ export default function Portfolio() {
                 <div className="portfolio">
                     <div className="hero-banner">
                         <div className="hero-banner-label">
-                            <h1 className="hero-banner-title text-xxxl text-neutral-primary">Hello, I'm <span className="accent">Nat!</span></h1>
+                            <h1 className="hero-banner-title text-xxxl text-neutral-primary style-display">Hello, I'm Nat!</h1>
                             <p className="hero-banner-description text-m text-neutral-secondary">
                             A designer with 4+ years of experience designing complex digital products—rooted in finance and internal tools, applicable anywhere.
                             <br /><br />
